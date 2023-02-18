@@ -81,9 +81,9 @@
             
             <div class=" w-full max-w-[328px] md:max-w-[453px] lg:max-w-[672px] h-[330px] lg:h-[451px]">
                     <BarChart v-if="selected == 1" />
-                    <LineChart v-if="selected == 2" />
-                    <BarChart1 v-if="selected == 3"/>
-                    <BarChart2 v-if="selected == 4"/>
+                    <LineChart v-else-if="selected == 2" />
+                    <BarChart1 v-else-if="selected == 3"/>
+                    <BarChart2 v-else/>
             </div>
 
               <div class=" w-full  flex-col items-start pt-5 space-y-2 flex md:hidden ">
