@@ -12,7 +12,7 @@ class ContactUsController extends Controller
 
     public function contactUsForm(Request $request)
     {
-        $email  = env('MAIL_FROM_ADDRESS');
+        $email  = 'info@semaso.de';
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required|email',

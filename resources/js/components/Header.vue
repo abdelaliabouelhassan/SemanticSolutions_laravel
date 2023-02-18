@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full py-4 relative z-40">
+    <div class=" w-full py-4 fixed inset-x-0 z-40 bg-white md:bg-tertiary ">
         <div class=" w-full flex items-center justify-between md:max-w-[758px] lg:max-w-[1150px] m-auto px-4">
             <div class=" flex items-center space-x-14 md:space-x-0">
                 <button class=" md:hidden " @click="toggleMenu">
