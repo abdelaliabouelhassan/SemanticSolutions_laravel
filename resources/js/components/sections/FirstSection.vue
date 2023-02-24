@@ -1,6 +1,6 @@
 <template>
     <div class=" w-full px-4 h-screen">
-        <div class="md:max-w-[758px] lg:max-w-[1150px] m-auto pt-56">
+        <div class="md:max-w-[758px] lg:max-w-[1150px] m-auto pt-96 px-4">
             <div class=" w-full flex flex-col items-start space-y-4 max-w-[231px] md:max-w-[282px] lg:max-w-[364px] z-20 relative">
                 <div class=" border-b-[2px] border-secondary w-full">
                         <div class=" space-x-2 text-[24px] md:text-[28px] lg:text-[35px] font-bold font-inter">

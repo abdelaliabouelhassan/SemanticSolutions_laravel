@@ -16,9 +16,7 @@
             </div>
         </div>
         <div  class="w-full transition-all  duration-500 delay-0 ease-in-out "  :class="{'h-0':!open,' h-max':open}"  >
-            <p class=" text-[15px] lg:text-[18px] font-light font-inter text-primary transition-all  duration-500 delay-250 ease-in-out"  v-show="open">
-                {{text}}
-            </p>
+            <p class=" text-[15px] lg:text-[18px] font-light font-inter text-primary transition-all  duration-500 delay-250 ease-in-out"  v-show="open" v-html="text"></p>
         </div>
     </div>
 </template>
